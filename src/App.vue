@@ -14,7 +14,7 @@
     <v-content>
       <router-view></router-view>
     </v-content>
-    <v-layout row justify-center>
+    <v-layout class="text-xs-center" column justify-center align-center>
        <h1>STAY CONTECTED</h1>
        <p>Join over 110k people who recieve bi-weekly our retaurant news</p> 
        <v-text-field  class="input" label="Enter Email" single-line solo></v-text-field>
@@ -60,13 +60,10 @@ font-size: 100px;
   font-size: 20px; 
 }
 .text-xs-center{
-  flex-direction: column;
   background-color:rgb(5, 3, 3);
   justify-content: center;
   font-family: Times New Roman;
   color:white;
-
-  
 }
 .footer2{
   flex-direction: column;
