@@ -15,10 +15,10 @@
       <router-view></router-view>
     </v-content>
     <v-layout class="text-xs-center" column justify-center align-center>
-       <h1>STAY CONTECTED</h1>
+       <h1 class="hello">STAY CONTECTED</h1>
        <p>Join over 110k people who recieve bi-weekly our retaurant news</p> 
        <v-text-field  class="input" label="Enter Email" single-line solo></v-text-field>
-       <v-btn color="rgb(71, 51, 51)" class="button">Submit</v-btn>
+       <v-btn @click="myClickFunction()" color="rgb(71, 51, 51)" class="button">Submit</v-btn>
     </v-layout>
      <v-footer class="footer2">&copy; 2019 - Mount Vernon , OH 4575466</v-footer>
   </v-app>
@@ -40,6 +40,12 @@ export default {
   data () {
     return {
       //
+    }
+  },
+  methods: {
+    myClickFunction: function() {
+      let hello = document.querySelector('.hello');
+       hello.textContent = "Your email has been received. Thank you!"; 
     }
   }
 }
