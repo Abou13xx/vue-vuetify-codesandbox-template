@@ -45,7 +45,7 @@ Promotions[edit]
 A basket of Cheddar Bay Biscuits from Red Lobster
 Red Lobster has offered an endless snow crab leg promotion twice in its history. However, in 2003, the promotion resulted in parent company Darden Restaurants taking a $3 million charge to third-quarter earnings, resulting in president Edna Morris' departure from the company. The ill-timed promotio
  </v-card>
- <v-card class="text-xs-center"> (444-454-8786) For Info</v-card>
+ <v-card class="text-xs-center"> Any concern? call (444-454-8786)</v-card>
   </v-container>
   </div>
 </template>
