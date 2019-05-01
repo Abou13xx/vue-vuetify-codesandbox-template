@@ -15,8 +15,8 @@ export default {
   name: 'Home',
   data: () => ({
     images: [
-      "http://csc3003.com/lab4/1.jpg",
       "http://csc3003.com/lab4/2.jpg",
+      "http://csc3003.com/lab4/1.jpg",
       "http://csc3003.com/lab4/3.jpg",
       "http://csc3003.com/lab4/4.jpg",
       "http://csc3003.com/lab4/5.jpg",
