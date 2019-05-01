@@ -1,7 +1,7 @@
 <template>
 <div class="main">
   <v-container class="main">
-  <v-card class="p">Everything you need to know about Abou's Five Start Restaurant</v-card>
+  <v-card class="header">Everything you need to know about Abou's Five Start Restaurant!</v-card>
   <v-card>
   <img src="http://i65.tinypic.com/dzxoye.jpg">
   </v-card>
@@ -46,9 +46,8 @@ A basket of Cheddar Bay Biscuits from Red Lobster
 Red Lobster has offered an endless snow crab leg promotion twice in its history. However, in 2003, the promotion resulted in parent company Darden Restaurants taking a $3 million charge to third-quarter earnings, resulting in president Edna Morris' departure from the company. The ill-timed promotio
  </v-card>
  <v-card class="text-xs-center"> 
-   <p>Contact</p> 
-   <p>(444)-454-8786</p>
-   <p> for any concern.</p>
+   <p class="contact">Contact (444)-454-8786 for any concern. </p> 
+   <p class="contact">Thank you for visiting Abou's Five Start Restaurant!</p>
    </v-card>
   </v-container>
   </div>
@@ -69,10 +68,11 @@ export default {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
 }
-.p{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.header{
   font-size: 50px;
-  padding: 50px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  padding:30px;
 }
 .text-xs-center{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -83,5 +83,9 @@ export default {
 }
 .main{
   background-color: rgb(71, 51, 51);
+}
+.contact{
+  font-size: 20px;
+  font-weight: bold;
 }
 </style>
