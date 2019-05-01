@@ -10,7 +10,7 @@
       >
         <template v-slot:activator="{ on }">
           <v-btn
-            color="red lighten-2"
+            color="rgb(71, 51, 51)"
             dark
             v-on="on"
           >
@@ -20,14 +20,15 @@
   
         <v-card>
           <v-card-title
-            class="headline grey lighten-2"
+            class="headline brown rgb(71, 51, 51)"
+            
             primary-title
           >
-            Privacy Policy
+            Item Description
           </v-card-title>
   
           <v-card-text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            artificial flavors, and sweeteners are added to enhance the taste of food. Food colors maintain or improve appearance. Emulsifiers, stabilizers and thickeners give foods the texture and consistency consumers expect. Leavening agents allow baked goods to rise during baking. Some additives help control the acidity and alkalinity of foods, while other ingredients help maintain the taste and appeal of foods with reduced fat content.
           </v-card-text>
   
           <v-divider></v-divider>
@@ -35,7 +36,7 @@
           <v-card-actions>
             <v-spacer></v-spacer>
             <v-btn
-              color="primary"
+              color="rgb(71, 51, 51)"
               flat
               @click="dialog = false"
             >

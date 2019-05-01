@@ -2,7 +2,7 @@
 <div class="main">
   <v-container class="main">
   <v-card class="header">Everything you need to know about Abou's Five Start Restaurant!</v-card>
-  <v-card>
+  <v-card class="text-xs-center">
   <img src="http://i65.tinypic.com/dzxoye.jpg">
   </v-card>
  <v-card class="p2">OUR SOURCING STORY
@@ -66,6 +66,7 @@ export default {
 <style scoped>
 .p2{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 20px;
   
 }
 .header{
@@ -73,6 +74,7 @@ export default {
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   padding:30px;
+  margin-top: 30px;
 }
 .text-xs-center{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

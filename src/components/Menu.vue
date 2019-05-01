@@ -7,17 +7,17 @@
       <Photo title="Pancakes $8.00" photo_url="http://csc3003.com/lab4/2.jpg"/>
       <Photo title="Yogurt $7.00" photo_url="http://csc3003.com/lab4/3.jpg"/>
       <Photo title="Black Coffee $9.00" photo_url="http://csc3003.com/lab4/4.jpg"/>
-      <Photo title="Cereal $5.0" photo_url="http://csc3003.com/lab4/5.jpg"/>
-      <Photo title="try something good" photo_url="http://csc3003.com/lab4/6.jpg"/>
-      <Photo title="try something good" photo_url="http://csc3003.com/lab4/7.jpg"/>
+      <Photo title="Cereal $5.00" photo_url="http://csc3003.com/lab4/5.jpg"/>
+      <Photo title="Ohhh $4.85 " photo_url="http://csc3003.com/lab4/6.jpg"/>
+      <Photo title="King $3.00" photo_url="http://csc3003.com/lab4/7.jpg"/>
       <Photo title="Waffle $6.99" photo_url="http://csc3003.com/lab4/8.jpg"/>
-      <Photo title="try something good" photo_url="http://csc3003.com/lab4/9.jpg"/>
+      <Photo title="Yeahhh $3.00" photo_url="http://csc3003.com/lab4/9.jpg"/>
       <Photo title="Juice $6.00" photo_url="http://csc3003.com/lab4/10.jpg"/>
-      <Photo title="try something good" photo_url="http://csc3003.com/lab4/11.jpg"/>
-      <Photo title="try something good" photo_url="http://csc3003.com/lab4/12.jpg"/>
-      <Photo title="try something good" photo_url="http://csc3003.com/lab4/13.jpg"/>
-      <Photo title="try something good" photo_url="http://csc3003.com/lab4/14.jpg"/>
-      <Photo title="try something good" photo_url="http://csc3003.com/lab4/15.jpg"/>
+      <Photo title="The life $ 5.00" photo_url="http://csc3003.com/lab4/11.jpg"/>
+      <Photo title="The best $8.99" photo_url="http://csc3003.com/lab4/12.jpg"/>
+      <Photo title="Hello $4.80" photo_url="http://csc3003.com/lab4/13.jpg"/>
+      <Photo title="The grind $2.00" photo_url="http://csc3003.com/lab4/14.jpg"/>
+      <Photo title="Delicious $7.00" photo_url="http://csc3003.com/lab4/15.jpg"/>
     </v-layout>
 
   </v-container>
